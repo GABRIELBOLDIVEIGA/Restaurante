@@ -1,0 +1,73 @@
+header {
+  display: flex;
+  justify-content: space-between;
+
+  max-width: 100vw;
+  height: 128px;
+
+  margin-top: 6em;
+
+  /* border: 1px solid greenyellow; */
+}
+
+.faixa {
+  display: flex;
+  align-self: center;
+  justify-content: space-between;
+
+  width: 100%;
+  height: 50px;
+  background-color: var(--vermelho);
+}
+
+a {
+  display: flex;
+  align-items: center;
+
+  text-decoration: none;
+  color: var(--branco);
+
+  cursor: pointer;
+}
+
+a img {
+  margin-right: .5em;
+}
+
+.img-logo {
+  align-self: center;
+  width: 128px;
+  height: 128px;
+  border-radius: 999px;
+
+  margin-left: 5em;
+}
+
+.botao-entrar {
+  display: flex;
+  justify-content: center;
+
+  font-weight: 600;
+  font-size: 1.2em;
+
+  height: 50px;
+  width: 100px;
+
+  border-radius: 10px;
+  background-color: var(--vermelho);
+
+  margin-right: 5em;
+
+  transform: translateY(-70px);
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  align-self: center;
+
+  width: 600px;
+  height: 50px;
+
+  background-color: var(--vermelho);
+}

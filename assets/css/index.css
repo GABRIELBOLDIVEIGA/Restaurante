@@ -1,0 +1,10 @@
+@import url("../css/carrinho.css");
+@import url("../css/filtro.css");
+@import url("../css/header.css");
+@import url("../css/produtos.css");
+
+main {
+  display: flex;
+  justify-content: space-between;
+}
+

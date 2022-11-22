@@ -1,0 +1,50 @@
+.filtro {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  color:var(--branco);
+
+  width: 880px;
+
+  padding: .5em .5em 1em .5em;
+  
+  background-color: var(--preto-translucido);
+
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;  
+}
+
+.filtro-nome input {
+  width: 416px;
+  height: 40px;
+
+  font-size: 1.1em;
+
+  background-color: var(--cinza-escuro);
+
+  border: none;
+
+  border-radius: 5px;
+
+  color: var(--cinza-claro);
+
+  box-shadow: 0 0 0 0;
+  outline: 0;
+
+  padding-inline-start: 1em;
+}
+
+select {
+  border: none;
+  background-color: var(--cinza-escuro);
+
+  font-size: 1.1em;
+
+  color: var(--cinza-muito-claro);
+
+  width: 430px;
+  height: 42px;
+
+  border-radius: 5px;
+}

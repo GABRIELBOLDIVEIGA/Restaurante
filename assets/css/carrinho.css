@@ -1,0 +1,96 @@
+main {
+  margin-right: 15em;
+  margin-left: 15em;
+}
+
+.carrinho {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  color: var(--cinza-claro);
+
+  background-color: var(--preto-translucido);
+  border-radius: 10px;
+
+  padding: 2em 2em;
+
+  margin-top: 5em;
+
+  width: 400px;
+
+  /* border: 1px solid red; */
+}
+
+.carrinho h2 {
+  border-bottom: 2px solid var(--cinza-claro);
+  padding-bottom: .5em;
+  margin-bottom: 1em;
+
+  font-size: 1.5em;
+}
+
+.carrinho h2::before {
+  content: "";
+  display: inline-block;
+  background-image: url("../img/svg/carrinho.svg");
+  background-size: cover;
+  width: 32px;
+  height: 32px;
+
+  margin-right: 1em;
+
+  transform: translateY(5px)
+
+  /* border: 1px solid blue; */
+}
+
+.box {
+  max-height: 350px;
+  overflow-y: scroll;
+}
+
+.itens li {
+  display: flex;
+  flex-direction: column;
+
+  max-width: 300px;
+  
+  margin-bottom: 1.3em;
+}
+
+.itens li > span {
+  margin-top: .3em;
+}
+
+.info {
+  border-top: 2px solid var(--cinza-claro);
+  padding-top: 1em;
+  margin-top: 1em;
+
+  margin-bottom: 1em;
+}
+
+.info p {
+  margin-bottom: .5em;
+}
+
+.btnFinalizarPedido {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  color: var(--branco);
+
+  font-weight: 600;
+  font-size: 1.2em;
+
+  height: 50px;
+  width: 100%;
+
+  border: none;
+  border-radius: 10px;
+  background-color: var(--vermelho);
+
+  cursor: pointer;
+}

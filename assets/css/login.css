@@ -1,0 +1,28 @@
+.principal {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.formulario {
+  width: 35vw;
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.logo img {
+  max-width: 25vw;
+  max-height: 45vh;
+}
+
+img {
+  width: 512px;
+}
+
+html {
+  background-image: none;
+}
