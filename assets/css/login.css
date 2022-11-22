@@ -1,28 +1,9 @@
-.principal {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
+@import url("../css/cadastro-produtos.css");
 
-.formulario {
-  width: 35vw;
-  height: 50vh;
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  gap: 15px;
-}
 
-.logo img {
-  max-width: 25vw;
-  max-height: 45vh;
+.invisivel {
+  display: none;
 }
-
-img {
-  width: 512px;
-}
-
-html {
-  background-image: none;
+.notificacao-emailSenha a {
+  color: red;
 }
