@@ -6,11 +6,10 @@ botao.addEventListener("click", () => {
 
   if (usuario == "user" && senha == "123") {
     console.log("Usuario");
-    window.location.href = "#";
+    window.location.href = "../pages/index.html";
   }
   if (usuario == "admin" && senha == "123456") {
     console.log("Admin");
-    window.location.href = "#";
+    window.location.href = "../pages/painel-admin.html";
   }
-
 });
