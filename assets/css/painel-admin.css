@@ -1,0 +1,19 @@
+main {
+  display: flex;
+
+  height: 84.5vh;
+
+  margin: 0 0 0 0;
+
+  background-color: var(--preto-translucido);
+
+  /* border: 3px solid red; */
+  color: aliceblue;
+}
+
+section {
+  /* border: 1px solid blue; */
+  padding: 3em 0 0 2em;
+  width: 100%;
+}
+
