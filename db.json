@@ -3,14 +3,14 @@
     {
       "nome": "HOSSOMAKI MIX",
       "descricao": "Arroz envolto por alga recheado com ovo, pepino, kani, cenoura, alface e gengibre em conserva.",
-      "url": "https://i.pinimg.com/originals/f1/36/1d/f1361d44b85af8cb92dee9fec51b05a0.png",
+      "url": "https://i0.wp.com/anovacozinha.com.br/wp-content/uploads/2021/07/side-view-mix-sushi-rolls-on-a-tray-with-ginger-and-wasabi.jpg?resize=1200%2C800&ssl=1",
       "preco": "6.90",
       "id": 1
     },
     {
-      "nome": "HOSSOMAKI MIX",
-      "descricao": "Arroz envolto por alga recheado com ovo, pepino, kani, cenoura, alface e gengibre em conserva.",
-      "url": "https://media.istockphoto.com/id/1367831478/pt/foto/japanese-food-combo-of-sushis-and-sahimis-in-black-background.jpg?b=1&s=170667a&w=0&k=20&c=B1BRrzHxcP21x4TsDW2M6a5E0fI5FiPmqFNhI5RGbCk=",
+      "nome": "URAMAKI ROLL DE CAMARÃO",
+      "descricao": "Empanado e cream cheese de recheio, no topo uma lâmina de salmão maçaricada com molho de marac",
+      "url": "https://images.unsplash.com/photo-1648146298859-cfb19fa93d58?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80",
       "preco": "11.22",
       "id": 2
     },
@@ -18,7 +18,7 @@
       "nome": "TEMAKI SALMÃO",
       "descricao": "Arroz cubos de salmão fresco, cogumelos shimeji, folhas de nori e cream cheese.",
       "url": "https://media.istockphoto.com/photos/temaki-salmon-oriental-meal-picture-id1407002631?b=1&k=20&m=1407002631&s=170667a&w=0&h=_kjJ4Tj0XHiauZEcVVjcZTspCsaf0emfqr5GzJ9B2Dw=",
-      "preco": "21.50",
+      "preco": "29.90",
       "id": 3
     },
     {
@@ -28,5 +28,6 @@
       "preco": "17.90",
       "id": 4
     }
+    
   ]
 }

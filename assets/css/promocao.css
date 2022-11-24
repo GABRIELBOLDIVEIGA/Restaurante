@@ -1,0 +1,11 @@
+main {
+  display: flex;
+
+  height: 84.5vh;
+
+  margin: 0 0 0 0;
+
+  background-color: var(--preto-translucido);
+
+  color: aliceblue;
+}
