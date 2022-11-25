@@ -20,26 +20,28 @@
 
     <section class="container">
       <div class="inputBox">
-        <input type="text" autocomplete="off" required />
+        <input id="nome" type="text" autocomplete="off" required />
         <span>Nome</span>
       </div>
 
       <div class="inputBox">
-        <textarea name="" id="" cols="10" rows="10" ></textarea>
+        <textarea name="" id="descricao" cols="10" rows="10" maxlength="90" required></textarea>
         <span>Descrição</span>
       </div>
 
       <div class="inputBox">
-        <input type="text" autocomplete="off" required />
+        <input id="url" type="text" autocomplete="off" required />
         <span>Link Imagem</span>
       </div>
+
       <div class="inputBox">
-        <input type="text" autocomplete="off" required />
+        <input id="preco" type="text" autocomplete="off" required />
         <span>Preço</span>
       </div>
 
       <button type="submit">Enviar</button>
     </section>
 
+    <script src="../controller/cadastraProduto.js" type="module"></script>
   </body>
 </html>
