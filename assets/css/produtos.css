@@ -5,6 +5,7 @@
   width: 100%;
 
   background-color: var(--preto-translucido);
+  border-radius: 15px;
 
   height: 700px;
   max-height: 700px;
@@ -14,9 +15,12 @@
 
 .produtos {
   display: flex;
-  justify-content: space-between;
+  /* justify-content: space-between; */
+  justify-content: center;
   flex-wrap: wrap;
   gap: 20px;
+
+  /* align-content: center; */
 
   width: auto;
   height: auto;
