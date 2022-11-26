@@ -15,7 +15,7 @@ function criaCard(nome, descricao, url, preco, id) {
     <div class="div-preco">
       <p class="texto-preco">a partir de <span class="preco-produto">R$ ${preco}</span></p>
       <div class="btn-adiciona-produto">
-        <img class="svg-adiciona" src="../assets/img/svg/+.svg" />
+        <img class="svg-adiciona" src="../assets/img/svg/+.svg" data-id="${id}" />
       </div>
     </div>
   </div>
@@ -28,14 +28,31 @@ const secProdutos = document.querySelector(".produtos");
 
 const render = async () => {
   try {
-    const lista = await produtoService.listaProdutos();
+    const listaDeProdutos = await produtoService.listaProdutos();
 
-    lista.forEach((element) => {
-      secProdutos.appendChild(criaCard(element.nome, element.descricao, element.url, element.preco, element.id))
+    listaDeProdutos.forEach((elemento) => {
+      secProdutos.appendChild(criaCard(elemento.nome, elemento.descricao, elemento.url, elemento.preco, elemento.id));
+    });
+
+    const botaoAdicionarProduto = document.querySelectorAll("[data-id]");
+    botaoAdicionarProduto.forEach((elemento) => {
+      elemento.addEventListener("click", function () {
+        const idDoProduto = this.getAttribute("data-id");
+        // console.log(idDoProduto);
+
+        retornaProdutoDetalhado(idDoProduto);
+      });
     });
   } catch {
-    console.log(error)
+    console.log(error);
   }
-}
+};
 
 render();
+
+const retornaProdutoDetalhado = async (idDoProduto) => {
+  const produtoDetalhado = await produtoService.detalhaProduto(idDoProduto);
+  console.log(produtoDetalhado);
+
+  return produtoDetalhado;
+};
