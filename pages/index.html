@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="../assets/css/reset.css" />
     <link rel="stylesheet" href="../assets/css/style.css" />
     <link rel="stylesheet" href="../assets/css/index.css" />
+    <link rel="stylesheet" href="../assets/css/carrinho.css" />
 
     <title>Sushi</title>
   </head>
@@ -68,7 +69,30 @@
 
         <div class="box">
           <ul class="itens">
-            <li>1x Hossomaki mix R$ 40,00 <span>20 peças </span></li>
+            <li>
+              <div>
+                <p>Hossomaki mix</p>
+                <div>
+                  <img class="btnQuantidade" id="btnMenos" src="../assets/img/svg/minus.svg" alt="" />
+                  <input type="text" class="inputQuantidade" value="00" />
+                  <img class="btnQuantidade" id="btnMais" src="../assets/img/svg/plus.svg" alt="" />
+                </div>
+              </div>
+              <p id="preco">R$ <span>40,00</span></p>
+            </li>
+
+            <li>
+              <div>
+                <p id="nome">HOT PHILADELPHIA (6 Unid.)</p>
+                <div>
+                  <img class="btnQuantidade" id="btnMenos" src="../assets/img/svg/minus.svg" alt="" />
+                  <input type="text" class="inputQuantidade" value="00" />
+                  <img class="btnQuantidade" id="btnMais" src="../assets/img/svg/plus.svg" alt="" />
+                </div>
+              </div>
+              <p id="preco">R$ <span>40,00</span></p>
+            </li>
+            
             <li>2x Temaki Salmão R$ 30,50 <span> 5 peças </span></li>
           </ul>
         </div>
