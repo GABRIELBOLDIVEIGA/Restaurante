@@ -55,13 +55,55 @@
   display: flex;
   flex-direction: column;
 
-  max-width: 300px;
+  max-width: 285px;
   
   margin-bottom: 1.3em;
+
+  padding-bottom: .5em;
+  border-bottom: 1px solid var(--cinza-muito-claro);
 }
 
 .itens li > span {
   margin-top: .3em;
+}
+
+li div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+li div div {
+  /* border: 1px solid red; */
+  background-color: var(--cinza-escuro);
+  border-radius: 20px;
+  height: 30px;
+  margin-right: .5em;
+}
+
+.inputQuantidade {
+  width: 40px;
+  text-align: center;
+  font-size: 1.1em;
+  border: none;
+  border-radius: 10px;
+  background-color: var(--cinza-escuro);
+  color: var(--cinza-claro);
+  margin: 0 .3em;
+}
+
+.btnQuantidade {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+
+#btnMenos {
+  margin-left: .5em;
+}
+
+#btnMais {
+  margin-right: .5em;
 }
 
 .info {
