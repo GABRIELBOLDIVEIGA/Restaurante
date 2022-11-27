@@ -68,39 +68,12 @@
         <h2>Pedido</h2>
 
         <div class="box">
-          <ul class="itens">
-            <li>
-              <div>
-                <p>Hossomaki mix</p>
-                <div>
-                  <img class="btnQuantidade" id="btnMenos" src="../assets/img/svg/minus.svg" alt="" />
-                  <input type="text" class="inputQuantidade" value="00" />
-                  <img class="btnQuantidade" id="btnMais" src="../assets/img/svg/plus.svg" alt="" />
-                </div>
-              </div>
-              <p id="preco">R$ <span>40,00</span></p>
-            </li>
-
-            <li>
-              <div>
-                <p id="nome">HOT PHILADELPHIA (6 Unid.)</p>
-                <div>
-                  <img class="btnQuantidade" id="btnMenos" src="../assets/img/svg/minus.svg" alt="" />
-                  <input type="text" class="inputQuantidade" value="00" />
-                  <img class="btnQuantidade" id="btnMais" src="../assets/img/svg/plus.svg" alt="" />
-                </div>
-              </div>
-              <p id="preco">R$ <span>40,00</span></p>
-            </li>
-            
-            <li>2x Temaki Salmão R$ 30,50 <span> 5 peças </span></li>
-          </ul>
+          <ul id="listaDeCompra" class="itens"></ul>
         </div>
 
         <div>
           <div class="info">
-            <p>Taxa de Entrega <span>R$ 5,00</span></p>
-            <p>Total do Pedido <span>R$ 70,50</span></p>
+            <p>Total do Pedido R$<span data-precoTotal>00.00</span></p>
           </div>
 
           <button class="btnFinalizarPedido">Finalizar Pedido</button>

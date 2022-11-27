@@ -106,6 +106,10 @@ li div div {
   margin-right: .5em;
 }
 
+span[data-precoTotal] {
+  margin-left: .5em;
+}
+
 .info {
   border-top: 2px solid var(--cinza-claro);
   padding-top: 1em;
