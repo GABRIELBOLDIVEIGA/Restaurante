@@ -9,7 +9,6 @@
     <link rel="stylesheet" href="../assets/css/reset.css" />
     <link rel="stylesheet" href="../assets/css/style.css" />
     <link rel="stylesheet" href="../assets/css/index.css" />
-    <link rel="stylesheet" href="../assets/css/carrinho.css" />
 
     <title>Sushi</title>
   </head>
@@ -23,7 +22,8 @@
         <a href="#"><img src="../assets/img/svg/estrela.svg" alt="" />Avaliações</a>
         <a href="#"><img src="../assets/img/svg/telefone.svg" alt="" />Contato</a>
       </nav>
-      <a class="botao-entrar" href="../pages/login.html">Entrar</a>
+      <a id="btnEntrar" class="botao-entrar" href="../pages/login.html">Entrar</a>
+      <a id="btnPerfil" class="botao-entrar botao-perfil invisivel" href="../pages/painel-user.html"><img src="../assets/img/svg/user.svg" /><span>Perfil</span></a>
     </header>
 
     <main class="main-index">
@@ -38,8 +38,9 @@
             <select name="cars" id="cars">
               <option value="">Filtre por Categoria</option>
               <option value="petisco">Petisco</option>
-              <option value="pratos">Pratos</option>
-              <option value="bebidas">Bebidas</option>
+              <option value="pratos">Prato</option>
+              <option value="bebidas">Bebida</option>
+              <option value="bebidas">Promoção</option>
             </select>
           </div>
         </div>
@@ -82,5 +83,18 @@
     </main>
 
     <script src="../controller/listaProdutos.js" type="module"></script>
+    <script>
+      const botaoEntrar = document.getElementById("btnEntrar");
+      const botaoPerfil = document.getElementById("btnPerfil");
+
+      const userLogado = localStorage.getItem("User-Logado");
+      if (userLogado == "true") {
+        botaoEntrar.classList.add("invisivel");
+        botaoPerfil.classList.remove("invisivel");
+      } else {
+        botaoEntrar.classList.remove("invisivel");
+        botaoPerfil.classList.add("invisivel");
+      }
+    </script>
   </body>
 </html>

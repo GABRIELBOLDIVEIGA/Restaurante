@@ -1,5 +1,5 @@
 import { produtoService } from "../service/produto-service.js";
-import { adicionaNoCarrinho } from "../controller/adicionaNoCarrinho.js";
+import { carrinho } from "../controller/carrinho.js";
 
 function criaCard(nome, descricao, url, preco, id) {
   const novoCard = document.createElement("div");
@@ -39,9 +39,8 @@ const render = async () => {
     botaoAdicionarProduto.forEach((elemento) => {
       elemento.addEventListener("click", function () {
         const idDoProduto = this.getAttribute("data-id");
-        // console.log(idDoProduto);
 
-        adicionaNoCarrinho(idDoProduto);
+        carrinho(idDoProduto);
       });
     });
   } catch {

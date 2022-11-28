@@ -34,12 +34,16 @@ a {
   padding-right: 1em;
 }
 
+nav a {
+  padding: 0 1em;
+}
+
 nav a:hover {
   background-color: var(--vermelho-escuro);
   border-radius: 999px;
   
   transition: all .1s ease-in-out;
-  transform: scale(1.1);
+  transform: scale(1.15);
 } 
 
 nav a img {
@@ -72,6 +76,14 @@ nav a img {
   padding-left: 1em;
 
   transform: translateY(-70px);
+}
+
+.botao-perfil img {
+  margin-right: .5em;
+}
+
+.invisivel {
+  display: none;
 }
 
 .menu {
