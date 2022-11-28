@@ -6,7 +6,7 @@ const listaProdutos = async () => {
   throw new Error("Não foi possível listar os Produtos!");
 };
 
-const criaProduto = async (nome, descricao, url, preco) => {
+const criaProduto = async (nome, descricao, url, preco, categoria) => {
   const resposta = await fetch("http://localhost:3000/produto", {
     method: "POST",
     headers: {
@@ -16,7 +16,8 @@ const criaProduto = async (nome, descricao, url, preco) => {
       nome: nome,
       descricao: descricao,
       url: url,
-      preco: preco
+      preco: preco,
+      categoria: categoria
     }),
   });
 
@@ -45,7 +46,7 @@ const detalhaProduto = async (id) => {
   throw new Error("Não foi possível detalhar o Produto!");
 };
 
-const atualizaProduto = async (id, nome, descricao, url, preco) => {
+const atualizaProduto = async (id, nome, descricao, url, preco, categoria) => {
   const resposta = await fetch(`http://localhost:3000/produto/${id}`, {
     method: "PUT",
     headers: {
@@ -55,7 +56,8 @@ const atualizaProduto = async (id, nome, descricao, url, preco) => {
       nome: nome,
       descricao: descricao,
       url: url,
-      preco: preco
+      preco: preco,
+      categoria: categoria
     }),
   });
   

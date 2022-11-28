@@ -1,7 +1,7 @@
 import { produtoService } from "../service/produto-service.js";
 
-const carrinho = document.getElementById("listaDeCompra");
-export const adicionaNoCarrinho = async (idDoProduto) => {
+const carrinhoLista = document.getElementById("listaDeCompra");
+export const carrinho = async (idDoProduto) => {
   const produtoDetalhado = await produtoService.detalhaProduto(idDoProduto);
   // console.log(produtoDetalhado);
 
@@ -25,7 +25,7 @@ function render(produtoDetalhado) {
   const li = document.createElement("li");
   li.setAttribute("data-idProduto", `${produtoDetalhado.id}`);
   li.innerHTML = conteudo;
-  carrinho.appendChild(li);
+  carrinhoLista.appendChild(li);
 
   controleDeQuantidade(li);
 }

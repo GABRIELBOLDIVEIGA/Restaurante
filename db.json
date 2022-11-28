@@ -5,6 +5,7 @@
       "descricao": "Arroz envolto por alga recheado com ovo, pepino, kani, cenoura, alface e gengibre em conserva.",
       "url": "https://i0.wp.com/anovacozinha.com.br/wp-content/uploads/2021/07/side-view-mix-sushi-rolls-on-a-tray-with-ginger-and-wasabi.jpg?resize=1200%2C800&ssl=1",
       "preco": "7.00",
+      "categoria": "petisco",
       "id": 1
     },
     {
@@ -12,6 +13,7 @@
       "descricao": "Empanado e cream cheese de recheio, no topo uma lâmina de salmão maçaricada com molho de marac",
       "url": "https://images.unsplash.com/photo-1648146298859-cfb19fa93d58?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80",
       "preco": "10.00",
+      "categoria": "petisco",
       "id": 2
     },
     {
@@ -19,6 +21,7 @@
       "descricao": "Arroz cubos de salmão fresco, cogumelos shimeji, folhas de nori e cream cheese.",
       "url": "https://media.istockphoto.com/photos/temaki-salmon-oriental-meal-picture-id1407002631?b=1&k=20&m=1407002631&s=170667a&w=0&h=_kjJ4Tj0XHiauZEcVVjcZTspCsaf0emfqr5GzJ9B2Dw=",
       "preco": "30.00",
+      "categoria": "prato",
       "id": 3
     },
     {
@@ -26,7 +29,48 @@
       "descricao": "Empanado com alga, arroz, salmão, cream cheese e crispy de couve frita.",
       "url": "https://img.itdg.com.br/images/recipes/000/056/937/356433/356433_original.jpg",
       "preco": "20.00",
+      "categoria": "prato",
       "id": 4
+    },
+    {
+      "nome": "SUCO DE MORANGO",
+      "descricao": "Suco de morango com agua de coco e hortelã.",
+      "url": "https://drjulianopimentel.com.br/wp-content/uploads/2017/01/suco-laranja-morango-1.jpg",
+      "preco": "7.00",
+      "categoria": "bebida",
+      "id": 8
+    },
+    {
+      "nome": "SUCO DE LARANJA",
+      "descricao": "Suco de Laranja fresco com hortelã.",
+      "url": "https://media.gazetadopovo.com.br/viver-bem/2019/06/suco-fruta-acucar-risco-morte-600x400-f107f9a0.jpg",
+      "preco": "7.00",
+      "categoria": "bebida",
+      "id": 9
+    },
+    {
+      "nome": "SUCO DE MARACUJÁ",
+      "descricao": "Suco de Maracujá fresco com hortelã.",
+      "url": "https://n2c8z6e5.rocketcdn.me/wp-content/uploads/2021/10/suco-de-maracuja%CC%81.jpg",
+      "preco": "7.00",
+      "categoria": "bebida",
+      "id": 10
+    },
+    {
+      "nome": "NAGOYA + 2 COCA-COLA",
+      "descricao": "Barca de sushi perfeito para duas pessoas.",
+      "url": "https://static-images.ifood.com.br/image/upload/t_medium/pratos/231b0301-e8c3-4ae4-80ef-107d1ac23bdd/202207011639_KH4B_i.jpg",
+      "preco": "52.00",
+      "categoria": "premocao",
+      "id": 11
+    },
+    {
+      "nome": "FUJI + COCA-COLA",
+      "descricao": "Combo de sushi + coca cola.",
+      "url": "https://static-images.ifood.com.br/image/upload/t_medium/pratos/231b0301-e8c3-4ae4-80ef-107d1ac23bdd/202207121846_052R_i.jpg",
+      "preco": "23.00",
+      "categoria": "premocao",
+      "id": 12
     }
   ]
 }
