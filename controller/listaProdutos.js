@@ -15,8 +15,8 @@ export function criaCard(nome, descricao, url, preco, id) {
 
     <div class="div-preco">
       <p class="texto-preco">a partir de <span class="preco-produto">R$ ${preco}</span></p>
-      <div class="btn-adiciona-produto">
-        <img class="svg-adiciona" src="../assets/img/svg/+.svg" data-id="${id}" />
+      <div class="btn-adiciona-produto" data-id="${id}">
+        <img class="svg-adiciona" src="../assets/img/svg/+.svg" />
       </div>
     </div>
   </div>
@@ -27,9 +27,11 @@ export function criaCard(nome, descricao, url, preco, id) {
 
 const secProdutos = document.querySelector(".produtos");
 
-const render = async () => {
+export const render = async (objeto) => {
   try {
-    const listaDeProdutos = await produtoService.listaProdutos();
+    // const listaDeProdutos = await produtoService.listaProdutos();
+
+    const listaDeProdutos = await objeto;
 
     listaDeProdutos.forEach((elemento) => {
       secProdutos.appendChild(criaCard(elemento.nome, elemento.descricao, elemento.url, elemento.preco, elemento.id));
@@ -48,4 +50,6 @@ const render = async () => {
   }
 };
 
-render();
+const todosProdutos = produtoService.listaProdutos();
+
+render(todosProdutos);
