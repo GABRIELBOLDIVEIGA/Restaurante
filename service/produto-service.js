@@ -67,10 +67,20 @@ const atualizaProduto = async (id, nome, descricao, url, preco, categoria) => {
   throw new Error("Não foi possível atualizar o Produto!");
 };
 
+const pesquisaProduto = async (termoDeBusca) => {
+  const resposta = await fetch(`http://localhost:3000/produto/?q=${termoDeBusca}`);
+
+  if(resposta.ok){
+    return resposta.json();
+  }
+  throw new Error("Tivemos problemas ao tentar localizar o termo de busca.")
+}
+
 export const produtoService = {
   listaProdutos,
   criaProduto,
   removeProduto,
   detalhaProduto,
   atualizaProduto,
+  pesquisaProduto
 };
