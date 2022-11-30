@@ -1,7 +1,7 @@
 import { produtoService } from "../service/produto-service.js";
 import { carrinho } from "../controller/carrinho.js";
 
-function criaCard(nome, descricao, url, preco, id) {
+export function criaCard(nome, descricao, url, preco, id) {
   const novoCard = document.createElement("div");
   const conteudo = `
   <div class="card-produto">

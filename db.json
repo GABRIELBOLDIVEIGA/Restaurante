@@ -61,7 +61,7 @@
       "descricao": "Barca de sushi perfeito para duas pessoas.",
       "url": "https://static-images.ifood.com.br/image/upload/t_medium/pratos/231b0301-e8c3-4ae4-80ef-107d1ac23bdd/202207011639_KH4B_i.jpg",
       "preco": "52.00",
-      "categoria": "premocao",
+      "categoria": "promocao",
       "id": 11
     },
     {
@@ -69,7 +69,7 @@
       "descricao": "Combo de sushi + coca cola.",
       "url": "https://static-images.ifood.com.br/image/upload/t_medium/pratos/231b0301-e8c3-4ae4-80ef-107d1ac23bdd/202207121846_052R_i.jpg",
       "preco": "23.00",
-      "categoria": "premocao",
+      "categoria": "promocao",
       "id": 12
     }
   ]

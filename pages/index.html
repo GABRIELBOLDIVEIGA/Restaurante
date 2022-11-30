@@ -30,17 +30,17 @@
       <div class="scroll">
         <div class="filtro">
           <div class="filtro-nome">
-            <input type="text" name="pesquisa" placeholder="Quer pedir o que?" />
+            <input id="filtro-pesquisa" type="text" name="pesquisa" placeholder="Quer pedir o que?" />
             <label for="pesquisa"></label>
           </div>
 
           <div class="categoria">
-            <select name="cars" id="cars">
+            <select>
               <option value="">Filtre por Categoria</option>
-              <option value="petisco">Petisco</option>
-              <option value="pratos">Prato</option>
-              <option value="bebidas">Bebida</option>
-              <option value="bebidas">Promoção</option>
+              <option data-opcao value="petisco">Petisco</option>
+              <option data-opcao value="prato">Prato</option>
+              <option data-opcao value="bebida">Bebida</option>
+              <option data-opcao value="promocao">Promoção</option>
             </select>
           </div>
         </div>
@@ -83,6 +83,7 @@
     </main>
 
     <script src="../controller/listaProdutos.js" type="module"></script>
+    <script src="../controller/pesquisaProduto.js" type="module"></script>
     <script>
       const botaoEntrar = document.getElementById("btnEntrar");
       const botaoPerfil = document.getElementById("btnPerfil");
