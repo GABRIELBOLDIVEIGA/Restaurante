@@ -38,7 +38,7 @@ nav a {
   padding: 0 1em;
 }
 
-nav a:hover {
+nav .link-menu-header:hover {
   background-color: var(--vermelho-escuro);
   border-radius: 999px;
   
