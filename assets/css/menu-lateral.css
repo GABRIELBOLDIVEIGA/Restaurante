@@ -1,6 +1,6 @@
 menu {
   padding-left: 20px;
-  margin-top: 3em;
+  margin: 3em 0;
   width: 300px;
 
   position: relative;
@@ -127,15 +127,15 @@ Animations
   transition: all 0.2s ease-in-out;
 }
 
-#toggle + .hamburger .top-bun {
+/* #toggle + .hamburger .top-bun {
   width: 2em;
   transform: translateX(17px) translateY(7px) rotate(30deg);
-}
+} */
 
-#toggle + .hamburger .bottom-bun {
+/* #toggle + .hamburger .bottom-bun {
   width: 2em;
   transform: translateX(17px) translateY(-7px)  rotate(-30deg);
-}
+} */
 
 #toggle:checked + .hamburger .top-bun {
   transform: rotate(-45deg);
@@ -156,5 +156,4 @@ Animations
 
 #toggle:checked + .hamburger + .nav {
   left: 0;
-  /* transform: scale(1); */
 }
