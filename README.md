@@ -26,5 +26,3 @@ Use o terminal para instalar:
 ```bash	
   Alt+L+O
 ```
-
-teste

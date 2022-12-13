@@ -71,30 +71,50 @@
       "preco": "23.00",
       "categoria": "promocao",
       "id": 12
+    }
+  ],
+  "usuario": [
+    {
+      "nomeCompleto": "João Getulio",
+      "nomeUser": "MinhaGoiaba",
+      "email": "jg@gmail.com",
+      "senha": "1.50",
+      "historico": [
+        {
+          "nome": "FUJI + COCA-COLA",
+          "descricao": "Combo de sushi + coca cola.",
+          "url": "https://static-images.ifood.com.br/image/upload/t_medium/pratos/231b0301-e8c3-4ae4-80ef-107d1ac23bdd/202207121846_052R_i.jpg",
+          "preco": "23.00",
+          "categoria": "promocao",
+          "id": 1
+        }
+      ],
+      "id": 1
     },
     {
-      "nome": "teste",
-      "descricao": "teste",
-      "url": "teste",
-      "preco": "teste",
-      "categoria": "",
-      "id": 13
+      "nomeCompleto": "Gabriel Boldi",
+      "nomeUser": "gabrielboldi",
+      "email": "gbveiga@gmail.com",
+      "senha": "000000",
+      "historico": [
+        {
+          "nome": "NAGOYA + 2 COCA-COLA",
+          "descricao": "Barca de sushi perfeito para duas pessoas.",
+          "url": "https://static-images.ifood.com.br/image/upload/t_medium/pratos/231b0301-e8c3-4ae4-80ef-107d1ac23bdd/202207011639_KH4B_i.jpg",
+          "preco": "52.00",
+          "categoria": "promocao",
+          "id": 1
+        }
+      ],
+      "id": 2
     },
     {
-      "nome": "",
-      "descricao": "teste",
-      "url": "",
-      "preco": "",
-      "categoria": "petisco",
-      "id": 14
-    },
-    {
-      "nome": "",
-      "descricao": "teste",
-      "url": "",
-      "preco": "",
-      "categoria": "promocao",
-      "id": 15
+      "nomeCompleto": "abc",
+      "nomeUser": "abclogin",
+      "email": "acb@gmail.com",
+      "senha": "senha123",
+      "historico": [],
+      "id": 3
     }
   ]
 }
