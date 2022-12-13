@@ -9,7 +9,7 @@
   <link rel="stylesheet" href="../assets/css/reset.css">
   <link rel="stylesheet" href="../assets/css/style.css">
   <link rel="stylesheet" href="../assets/css/header.css">
-  <link rel="stylesheet" href="../assets/css/cadastro-clienten.css">
+  <link rel="stylesheet" href="../assets/css/cadastro-usuario.css">
 
   <title>Criar Conta</title>
 </head>
@@ -21,32 +21,34 @@
 
   <section class="container">
     <div class="inputBox">
-      <input type="text" autocomplete="off" required />
+      <input id="nomeCompleto" type="text" autocomplete="off" required />
       <span>Nome Completo</span>
     </div>
 
     <div class="inputBox">
-      <input type="text" autocomplete="off" required />
+      <input id="nomeUsuario" type="text" autocomplete="off" required />
       <span>Nome de Usuario</span>
     </div>
 
     <div class="inputBox">
-      <input type="text" autocomplete="off" required />
+      <input id="email" type="text" autocomplete="off" required />
       <span>E-mail</span>
     </div>
 
     <div class="inputBox">
-      <input type="text" autocomplete="off" required />
+      <input id="senha" type="password" autocomplete="off" required />
       <span>Senha</span>
     </div>
 
     <div class="inputBox">
-      <input type="text" autocomplete="off" required />
+      <input id="confirmaSenha" type="password" autocomplete="off" required />
       <span>Confirmar Senha</span>
     </div>
 
-    <button type="submit">Criar Conta</button>
+    <button type="submit" id="cadastrar">Criar Conta</button>
   </section>
   
+
+  <script src="../controller/cadastroUsuario.js" type="module"></script>
 </body>
 </html>
